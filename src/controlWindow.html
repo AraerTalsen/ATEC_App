@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" media="screen" href="controlWindow.css" />
+  </head>
+  <body>
+    <div class="layout">
+      <div class="titleCard">
+        <h1>ATEC Recorder</h1>
+      </div>
+
+      <button id="btnBack" class="btnBack">Back</button>
+
+      <div class="mainBody">
+        <div id="taskList" class="taskList"></div>
+
+        <div class="mainController">
+          <div class="gridItem">
+            <button id="btnIntro" class="btnItem">Intro</button>
+            <button id="btnPrac" class="btnItem">Practice</button>
+            <button id="btnTest" class="btnItem">Test</button>
+          </div>
+          <div class="gridItem">
+            <button id="btnStop" class="btnItem">Stop</button>
+          </div>
+          <div class="vidContainer gridItem">
+              <video id="video"></video>
+          </div>
+          <div class="flipContainer">
+            <button id="btnFlip" class="btnItem">Flip</button>
+            <button id="btnFlipDesc" class="btnItem">!</button>
+          </div>       
+          <div class="gridItem">
+            <button id="btnPrev" class="btnItem">Prev</button>
+            <button id="btnNext" class="btnItem">Next</button>
+          </div>
+        </div>
+
+        <div id="instructions" class="instructions"></div>
+      </div>
+
+      <div class="fileFinder">
+        <button id="btnFinder" class="btnItem">Open Saved Videos</button>
+      </div>
+    </div>
+    <script src="controlWindow.js"></script>
+  </body>
+</html>

@@ -1,0 +1,308 @@
+	"TaskId": "0",
+	"Type": 0,
+	"FilePath": "scene1_introduction.mp4"
+<Introduction>
+	"TaskId": "1",
+	"Type": 0,
+	"FilePath": "scene2_walk_naturally_intro.mp4"
+<Walk Naturally>
+	"TaskId": "2",
+	"Type": 0,
+	"FilePath": "scene3_sneaky_toes_intro.mp4"
++
+	"TaskId": "2",
+	"Type": 2,
+	"FilePath": "1_2_3_Go.mp4"
+<Sneaky Toes>
+	"TaskId": "3",
+	"Type": 0,
+	"FilePath": "scene4_heel_to_toe_walk_intro.mp4"
++
+	"TaskId": "3",
+	"Type": 2,
+	"FilePath": "1_2_3_Go.mp4"
+<Heel to Toe Walk>
+	"TaskId": "4",
+	"Type": 0,
+	"FilePath": "scene5_spell_caster_intro.mp4"
++
+	"TaskId": "4",
+	"Type": 2,
+	"FilePath": "scene5_spell_caster_record.mp4"
+<Spell Caster>
+	"TaskId": "5",
+	"Type": 0,
+	"FilePath": "scene6_open_foot_wonder_intro.mp4"
++
+	"TaskId": "5",
+	"Type": 2,
+	"FilePath": "scene6_open_foot_wonder_record_1.mp4"
+<One Foot Wonder - Right>
+	"TaskId": "6",
+	"Type": 2,
+	"FilePath": "scene6_open_foot_wonder_record_2.mp4"
+<One Foot Wonder - Left>
+	"TaskId": "7",
+	"Type": 0,
+	"FilePath": "scene7_march_intro.mp4"
++
+	"TaskId": "7",
+	"Type": 2,
+	"FilePath": "scene7_march_record.mp4"
+<March to the Beat - Intro>
+	"TaskId": "8",
+	"Type": 0,
+	"FilePath": "scene8_march_slow_intro.mp4"
++
+	"TaskId": "8",
+	"Type": 2,
+	"FilePath": "scene8_march_slow_record.mp4"
+<March to the Beat - Slow>
+	"TaskId": "9",
+	"Type": 0,
+	"FilePath": "scene9_march_fast_intro.mp4"
++
+	"TaskId": "9",
+	"Type": 2,
+	"FilePath": "scene9_march_fast_record.mp4"
+<March to the Beat - Fast>
+	"TaskId": "10",
+	"Type": 0,
+	"FilePath": "scene10_ball_drop_slow_intro.mp4"
++
+	"TaskId": "10",
+	"Type": 2,
+	"FilePath": "scene10_ball_drop_slow_record.mp4"
+<Ball Drop - Slow>
+	"TaskId": "11",
+	"Type": 0,
+	"FilePath": "scene10_ball_drop_fast_intro.mp4"
++
+	"TaskId": "11",
+	"Type": 2,
+	"FilePath": "scene10_ball_drop_fast_record.mp4"
+<Ball Drop - Fast>
+	"TaskId": "12",
+	"Type": 0,
+	"FilePath": "scene11_red_green_light_intro.mp4"
++
+	"TaskId": "12",
+	"Type": 1,
+	"FilePath": "scene11_red_green_light_practice.mp4"
++
+	"TaskId": "12",
+	"Type": 2,
+	"FilePath": "scene11_red_green_light_record.mp4"
+<Red/Green Light - Slow>
+	"TaskId":"13",
+	"Type": 0,
+	"FilePath": "scene12_red_green_light_fast_intro.mp4"
++
+	"TaskId":"13",
+	"Type": 2,
+	"FilePath": "scene12_red_green_light_fast_record.mp4"
+<Red/Green Light - Fast>
+	"TaskId":"14",
+	"Type": 0,
+	"FilePath": "scene13_red_green_yellow_light_slow_intro.mp4"
++
+	"TaskId":"14",
+	"Type": 1,
+	"FilePath": "scene13_red_green_yellow_light_slow_practice.mp4"
++
+	"TaskId":"14",
+	"Type": 2,
+	"FilePath": "scene13_red_green_yellow_light_slow_record.mp4"
+<Red/Green/Yellow - Slow>
+	"TaskId":"15",
+	"Type": 0,
+	"FilePath": "scene14_red_green_yellow_light_fast_intro.mp4"
++
+	"TaskId":"15",
+	"Type": 2,
+	"FilePath": "scene14_red_green_yellow_light_fast_record.mp4"
+<Red/Green/Yellow - Fast>
+	"TaskId":"16",
+	"Type": 0,
+	"FilePath": "scene15_traffic_lights_slow_intro.mp4"
++
+	"TaskId":"16",
+	"Type": 2,
+	"FilePath": "scene15_traffic_lights_slow_record.mp4"
+<Traffic Lights RG - Slow>
+	"TaskId":"17",
+	"Type": 0,
+	"FilePath": "scene16_traffic_lights_fast_intro.mp4"
++
+	"TaskId":"17",
+	"Type": 2,
+	"FilePath": "scene16_traffic_lights_fast_record.mp4"
+<Traffic Lights RG - Fast>
+	"TaskId":"18",
+	"Type": 0,
+	"FilePath": "scene17_traffic_lights_yellow_slow_intro.mp4"
++
+	"TaskId":"18",
+	"Type": 2,
+	"FilePath": "scene17_traffic_lights_yellow_slow_record.mp4"
+<Traffic Lights RYG - Slow>
+	"TaskId":"19",
+	"Type": 0,
+	"FilePath": "scene18_intro.mp4"
++
+	"TaskId":"19",
+	"Type": 2,
+	"FilePath": "scene18_record.mp4"
+<Traffic Lights RYG - Fast>
+	"TaskId":"20",
+	"Type": 0,
+	"FilePath": "scene19_intro.mp4"
++
+	"TaskId":"20",
+	"Type": 2,
+	"FilePath": "scene19_record.mp4"
+<Sailor Step - Slow>
+	"TaskId":"21",
+	"Type": 0,
+	"FilePath": "scene20_intro.mp4"
++
+	"TaskId":"21",
+	"Type": 2,
+	"FilePath": "scene20_record.mp4"
+<Sailor Step - Fast>
+	"TaskId":"22",
+	"Type": 0,
+	"FilePath": "scene21-1_intro.mp4"
++
+	"TaskId":"22",
+	"Type": 2,
+	"FilePath": "scene21-1_record.mp4"
+<Cross Your Body - Trial 1>
+	"TaskId":"23",
+	"Type": 2,
+	"FilePath": "scene21-2_record.mp4"
+<Cross Your Body - Trial 2>
+	"TaskId":"24",
+	"Type": 0,
+	"FilePath": "scene22-1_intro.mp4"
++
+	"TaskId":"24",
+	"Type": 1,
+	"FilePath": "scene22-1_practice.mp4"
++
+	"TaskId":"24",
+	"Type": 2,
+	"FilePath": "scene22-1_record.mp4"
+<Opposites - Ears and Knees>
+	"TaskId":"25",
+	"Type": 0,
+	"FilePath": "scene22-2_intro.mp4"
++
+	"TaskId":"25",
+	"Type": 1,
+	"FilePath": "scene22-2_practice.mp4"
++
+	"TaskId":"25",
+	"Type": 2,
+	"FilePath": "scene22-2_record.mp4"
+<Opp. - Hips and Shoulders>
+	"TaskId":"26",
+	"Type": 0,
+	"FilePath": "scene23_intro.mp4"
++
+	"TaskId":"26",
+	"Type": 2,
+	"FilePath": "scene23_record.mp4"
+<Opposites - Cross Your Body>
+	"TaskId":"27",
+	"Type": 0,
+	"FilePath": "scene24_intro.mp4"
++
+	"TaskId":"27",
+	"Type": 2,
+	"FilePath": "scene24_record.mp4"
+<Stretch and Touch>
+	"TaskId":"28",
+	"Type": 0,
+	"FilePath": "scene25_intro.mp4"
++
+	"TaskId":"28",
+	"Type": 2,
+	"FilePath": "scene25_record.mp4"
+<Stretch and Touch - 2 Hands>
+	"TaskId":"29",
+	"Type": 0,
+	"FilePath": "scene26-1_intro.mp4"
++
+	"TaskId":"29",
+	"Type": 2,
+	"FilePath": "scene26-1_record_1.mp4"
+<Foot Tap - Right>
+	"TaskId":"30",
+	"Type": 2,
+	"FilePath": "scene26-1_record_2.mp4"
+<Foot Tap - Left>
+	"TaskId":"31",
+	"Type": 0,
+	"FilePath": "scene26-2_intro.mp4"
++
+	"TaskId":"31",
+	"Type": 2,
+	"FilePath": "scene26-2_record_1.mp4"
+<Heel Toe - Right>
+	"TaskId":"32",
+	"Type": 2,
+	"FilePath": "scene26-2_record_2.mp4"
+<Heel Toe - Left>
+	"TaskId":"33",
+	"Type": 0,
+	"FilePath": "scene26-3_intro.mp4"
++
+	"TaskId":"33",
+	"Type": 2,
+	"FilePath": "scene26-3_record_1.mp4"
+<Hand Pat - Right>
+	"TaskId":"34",
+	"Type": 2,
+	"FilePath": "scene26-3_record_2.mp4"
+<Hand Pat - Left>
+	"TaskId":"35",
+	"Type": 0,
+	"FilePath": "scene26-4_intro.mp4"
++
+	"TaskId":"35",
+	"Type": 2,
+	"FilePath": "scene26-4_hand_flip_flop_record_1.mp4"
+<Hand Flip-Flop - Right>
+	"TaskId":"36",
+	"Type": 2,
+	"FilePath": "scene26-4_record_2.mp4"
+<Hand Flip-Flop - Left>
+	"TaskId":"37",
+	"Type": 0,
+	"FilePath": "scene26-5_intro.mp4"
++
+	"TaskId":"37",
+	"Type": 2,
+	"FilePath": "scene26-5_record_1.mp4"
+<Finger Tap - Right>
+	"TaskId":"38",
+	"Type": 2,
+	"FilePath": "scene26-5_record_2.mp4"
+<Finger Tap - Left>
+	"TaskId":"39",
+	"Type": 0,
+	"FilePath": "scene26-6_intro.mp4"
++
+	"TaskId":"39",
+	"Type": 2,
+	"FilePath": "scene26-6_record_1.mp4"
+<Fingers in Order - Right>
+	"TaskId":"40",
+	"Type": 2,
+	"FilePath": "scene26-6_record_2.mp4"
+<Fingers in Order - Left>
+	"TaskId":"41",
+	"Type": 0,
+	"FilePath": "goodbye.mp4"
+<Conclusion>
