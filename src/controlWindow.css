@@ -12,18 +12,9 @@ body {
   grid-template-rows: 10% 5% 75% 10%;  
 }
 
-.mainBody
+.titleCard
 {
-  display: grid;
-  grid-template-columns: 2fr 3fr 2fr;
-} 
-
-.fileFinder
-{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 5em;
+  text-align: center;
 }
 
 .btnBack
@@ -32,12 +23,11 @@ body {
   height: 50%;
 }
 
-.mainController
+.mainBody
 {
   display: grid;
-  grid-template-rows: 5% 5% 70% 5% 15% ; 
-  height: 75vh;
-}
+  grid-template-columns: 2fr 3fr 2fr;
+} 
 
 .taskList
 {
@@ -45,17 +35,6 @@ body {
   overflow: scroll;
   background-color: rgb(39, 194, 39);
   margin: 5%;
-  box-shadow: 10px 10px rgb(18, 148, 83);
-}
-
-.instructions
-{
-  white-space: pre-wrap;
-  height: 75vh;
-  background-color: white;
-  margin: 5%;
-  padding-left: 5%;
-  padding-right: 5%;
   box-shadow: 10px 10px rgb(18, 148, 83);
 }
 
@@ -73,11 +52,24 @@ body {
   margin-bottom: 1%;
 }
 
+.mainController
+{
+  display: grid;
+  grid-template-rows: 5% 5% 70% 5% 15% ; 
+  height: 75vh;
+}
+
 .vidContainer
 {
   margin: 5%;
   background-color: white;
   box-shadow: 10px 10px rgb(18, 148, 83);
+}
+
+#video
+{
+  width:85%;
+  transform: scaleX(-1);
 }
 
 .flipContainer
@@ -102,7 +94,18 @@ body {
   width: 5%;
 }
 
-.gridItem
+.instructions
+{
+  white-space: pre-wrap;
+  height: 75vh;
+  background-color: white;
+  margin: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  box-shadow: 10px 10px rgb(18, 148, 83);
+}
+
+.fileFinder
 {
   display: flex;
   justify-content: center;
@@ -115,13 +118,10 @@ body {
   width: 25%;
 }
 
-.titleCard
+.gridItem
 {
-  text-align: center;
-}
-
-#video
-{
-  width:85%;
-  transform: scaleX(-1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5em;
 }
