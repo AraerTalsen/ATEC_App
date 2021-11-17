@@ -4,26 +4,29 @@ const fs = require('fs');
 const {writeFile} = require('fs');
 const { exec } = require('child_process');
 
-let currentTask = 0;
 let taskWhenStopped;
+let selectedButton;
+let unselectedColor = "rgb(230, 76, 76)";
+let selectedColor = "rgb(163, 72, 90)";
+
+let isPlaying = false;
+let isFlipped = true;
+
+let currentTask = 0;
 let vidType = 0;
 let vidArr;
-let instructArr;
 let taskBtns = [];
+let instructArr;
+
+let mainDir;
+let date;
+
 let kidsSpecialFormat = [1, 6, 23, 30, 32, 34, 36, 38, 40];
 let adultsSpecialFormat = [46];
 
 let intro = document.getElementById('btnIntro');
 let practice = document.getElementById('btnPrac');
 let test = document.getElementById('btnTest');
-let mainDir;
-let date;
-
-let isPlaying = false;
-let selectedButton;
-let isFlipped = true;
-let unselectedColor = "rgb(230, 76, 76)";
-let selectedColor = "rgb(163, 72, 90)";
 
 let isATECKids = ipcRenderer.sendSync('recallExam');
 let vidTxtFile = isATECKids ? '\\ATECVideos.txt' : '\\AdultATECVideos.txt';
@@ -52,6 +55,7 @@ fs.readFile(vidTxtFilePath, 'utf8' , (err, data) =>
     }
     activateVideoTypeButtons(0);
 });
+
 fs.readFile(instructTxtFilePath, 'utf8' , (err, data) => 
 {
     if (err) {
@@ -64,7 +68,8 @@ fs.readFile(instructTxtFilePath, 'utf8' , (err, data) =>
     console.log(instructArr.length);
 });
 
-intro.addEventListener('click', (ev)=>{
+intro.addEventListener('click', (ev)=>
+{
     if(intro != selectedButton)
     {
         stopVideo();
@@ -79,7 +84,8 @@ intro.addEventListener('click', (ev)=>{
     
 });
 
-practice.addEventListener('click', (ev)=>{
+practice.addEventListener('click', (ev)=>
+{
     if(practice != selectedButton)
     {
         stopVideo();
@@ -277,23 +283,31 @@ let constraintObj = {
 // // facingMode: "environment"
 
 // //handle older browsers that might implement getUserMedia in some way
-if (navigator.mediaDevices === undefined) {
+if (navigator.mediaDevices === undefined) 
+{
     navigator.mediaDevices = {};
-    navigator.mediaDevices.getUserMedia = function(constraintObj) {
+    navigator.mediaDevices.getUserMedia = function(constraintObj) 
+    {
         let getUserMedia = navigator.webkitGetUserMedia || navigator.mozGetUserMedia;
-        if (!getUserMedia) {
+        if (!getUserMedia) 
+        {
             return Promise.reject(new Error('getUserMedia is not implemented in this browser'));
         }
-        return new Promise(function(resolve, reject) {
+        return new Promise(function(resolve, reject) 
+        {
             getUserMedia.call(navigator, constraintObj, resolve, reject);
         });
     }
-}else{
+}
+else
+{
     navigator.mediaDevices.enumerateDevices()
-    .then(devices => {
-        devices.forEach(device=>{
-            //console.log(device.kind.toUpperCase(), device.label);
-            //, device.deviceId
+    .then(devices => 
+    {
+        devices.forEach(device=>
+        {
+        //console.log(device.kind.toUpperCase(), device.label);
+        //, device.deviceId
         })
     })
     .catch(err=>{
@@ -312,6 +326,7 @@ function startVideo()
     }
     isPlaying = true;
 }
+
 function stopVideo()
 {
     if(isPlaying)
@@ -344,7 +359,8 @@ let mediaRecorder;
 let chunks = [];
 
 navigator.mediaDevices.getUserMedia(constraintObj, (err)=> {console.log(err); })
-.then(function(mediaStreamObj) {
+.then(function(mediaStreamObj) 
+{
     let video = document.querySelector('video');
 
     //connect the media stream to the first video element
@@ -434,7 +450,8 @@ navigator.mediaDevices.getUserMedia(constraintObj, (err)=> {console.log(err); })
     mediaRecorder.onstop = handleStop;  
     console.log(3);      
 })
-.catch(function(err) { 
+.catch(function(err) 
+{ 
     console.log(err.name, err.message); 
 });
 
